@@ -1,75 +1,130 @@
-Customer Churn Analysis (EDA)
-📌 Project Overview
+# 📊 Customer Churn Analysis (EDA)
 
-This project focuses on Exploratory Data Analysis (EDA) of a Customer Churn dataset to identify the major factors influencing customer churn. The analysis helps businesses understand customer behavior and improve customer retention strategies.
+## 📌 Project Overview
+This project focuses on **Exploratory Data Analysis (EDA)** of a Customer Churn dataset to identify the major factors influencing customer churn. The analysis helps businesses understand customer behavior and improve customer retention strategies.
 
 The project includes:
+- ✅ Data Cleaning & Preprocessing
+- ✅ Handling Missing Values
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Data Visualization
+- ✅ Business Insights Generation
 
-Data Cleaning & Preprocessing
-Handling Missing Values
-Exploratory Data Analysis (EDA)
-Data Visualization
-Business Insights Generation
-📂 Dataset Information
+---
 
+## 📂 Dataset Information
 The dataset contains customer-related information such as:
 
-Customer tenure
-Monthly charges
-Contract type
-Payment method
-Total charges
-Churn status
+- Customer Tenure
+- Monthly Charges
+- Contract Type
+- Payment Method
+- Total Charges
+- Churn Status
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-🔍 Steps Performed
-1. Data Loading
-Imported the dataset using Pandas.
-Checked dataset structure and summary statistics.
-2. Data Cleaning
-Converted data types into proper formats.
-Handled missing values in TotalCharges.
-Converted categorical churn values (Yes/No) into numeric values (1/0).
-3. Exploratory Data Analysis (EDA)
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Operations |
+| Matplotlib | Data Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development Environment |
+
+---
+
+## 🔍 Steps Performed
+
+### 1️⃣ Data Loading
+- Imported the dataset using Pandas
+- Checked dataset structure and summary statistics
+
+### 2️⃣ Data Cleaning
+- Converted data types into proper formats
+- Handled missing values in `TotalCharges`
+- Converted categorical churn values (`Yes/No`) into numeric values (`1/0`)
+
+### 3️⃣ Exploratory Data Analysis (EDA)
 
 Performed analysis on:
+- Churn Rate
+- Contract Type vs Churn
+- Payment Method vs Churn
+- Monthly Charges vs Churn
+- Tenure vs Churn
 
-Churn Rate
-Contract Type vs Churn
-Payment Method vs Churn
-Monthly Charges vs Churn
-Tenure vs Churn
-4. Data Visualization
+### 4️⃣ Data Visualization
 
 Created visualizations using Matplotlib and Seaborn:
+- 📈 Count Plots
+- 📊 Histograms
+- 📉 Boxplots
+- 🔥 Correlation Heatmap
 
-Count Plots
-Histograms
-Boxplots
-Correlation Heatmap
-📊 Key Insights
-Customers with month-to-month contracts have higher churn rates.
-Customers with high monthly charges are more likely to churn.
-Customers with low tenure are at greater risk of leaving.
-Certain payment methods show higher churn patterns.
-🎯 Project Outcome
+---
 
-This project helps in identifying high-risk customers and provides insights that can support better business decisions to improve customer retention and reduce churn.
+## 📊 Key Insights
 
-🚀 Future Improvements
-Build Machine Learning models for churn prediction.
-Create an interactive dashboard using Power BI or Streamlit.
-Perform advanced feature engineering.
-📁 Project Structure
+- Customers with **month-to-month contracts** have higher churn rates
+- Customers with **high monthly charges** are more likely to churn
+- Customers with **low tenure** are at greater risk of leaving
+- Certain **payment methods** show higher churn patterns
+
+---
+
+## 🎯 Project Outcome
+
+This project helps identify high-risk customers and provides insights that support better business decisions for improving customer retention and reducing churn.
+
+---
+
+## 🚀 Future Improvements
+
+- Build Machine Learning models for churn prediction
+- Create an interactive dashboard using Power BI or Streamlit
+- Perform advanced feature engineering
+
+---
+
+## 📁 Project Structure
+
+```bash
 Customer-Churn-EDA/
 │
 ├── churn.csv
 ├── Customer_Churn_EDA.ipynb
 ├── README.md
 └── requirements.txt
+```
+
+---
+
+## ▶️ How to Run the Project
+
+```bash
+# Clone the repository
+git clone <your-github-repo-link>
+
+# Open project folder
+cd Customer-Churn-EDA
+
+# Install required libraries
+pip install -r requirements.txt
+
+# Run Jupyter Notebook
+jupyter notebook
+```
+
+---
+
+## 📌 Author
+
+**Santoshi Deshmukh**  
+📧 Aspiring Data Analyst  
+💻 Python | SQL | Power BI | Data Analytics
+
+---
