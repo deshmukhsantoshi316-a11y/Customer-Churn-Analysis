@@ -99,32 +99,6 @@ Customer-Churn-EDA/
 ├── Customer_Churn_EDA.ipynb
 ├── README.md
 └── requirements.txt
-```
+``
 
----
 
-## ▶️ How to Run the Project
-
-```bash
-# Clone the repository
-git clone <your-github-repo-link>
-
-# Open project folder
-cd Customer-Churn-EDA
-
-# Install required libraries
-pip install -r requirements.txt
-
-# Run Jupyter Notebook
-jupyter notebook
-```
-
----
-
-## 📌 Author
-
-**Santoshi Deshmukh**  
-📧 Aspiring Data Analyst  
-💻 Python | SQL | Power BI | Data Analytics
-
----
